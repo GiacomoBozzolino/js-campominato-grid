@@ -19,12 +19,13 @@ function squareElement (){
     for ( i = 0; i < 100; i++ ){
         let square = squareElement ();
         square.innerText= i+ 1
-        console.log(square)
+        // console.log(square)
 
         // aggiungo l'evento al click su quadrato
         square.addEventListener('click', function (){
             
             this.classList.add('clicked');
+            console.log(`Hai cliccato sulla casella numero: ${square.innerText}`)
         })
 
 
