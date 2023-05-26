@@ -55,8 +55,21 @@ main{
 }
 
 .easy{
-    width: calc(1000px /10);
-    height:calc(1000px /10) ;
+    width:calc(1000px /10);
+    height:calc(1000px /10);
+
+}
+
+.medium{
+    width:111px;
+    height:112px;
+
+}
+
+
+.hard{
+    width: calc(1000px /7);
+    height:calc(1000px /7) ;
 
 }
 

@@ -1,7 +1,5 @@
 // recupero il pulsante per giocare
 
-
-
 let play = document.getElementById('play')
 console.log(play)
 // collego la creazione della griglia al pulsante
@@ -24,7 +22,7 @@ if ( level === '1'){
         let square = squareElement ();
         square.classList.add('easy')
         square.innerText= i+ 1
-        // console.log(square)
+        console.log(square)
     
         // aggiungo l'evento al click su quadrato
         square.addEventListener('click', function (){
@@ -38,6 +36,7 @@ if ( level === '1'){
     for ( i = 0; i < 81; i++ ){
         let square = squareElement ();
         square.innerText= i+ 1
+        square.classList.add('medium')
         // console.log(square)
     
         // aggiungo l'evento al click su quadrato
@@ -53,7 +52,9 @@ if ( level === '1'){
     
     for ( i = 0; i < 49; i++ ){
         let square = squareElement ();
+        square.classList.add('hard')
         square.innerText= i+ 1
+
         // console.log(square)
     
         // aggiungo l'evento al click su quadrato
