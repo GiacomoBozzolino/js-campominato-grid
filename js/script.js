@@ -17,10 +17,18 @@ function squareElement (){
 }
 // realizzo un ciclo for per la creazione ripetuta dei quadrati
     for ( i = 0; i < 100; i++ ){
-        
         let square = squareElement ();
-        
+        square.innerText= i+ 1
         console.log(square)
+
+        // aggiungo l'evento al click su quadrato
+        square.addEventListener('click', function (){
+            
+            this.classList.add('clicked');
+        })
+
+
+
         griglia.append(square)
     }
 

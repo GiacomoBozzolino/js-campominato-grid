@@ -23,9 +23,12 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
+    padding: 2rem;
 }
 
 #griglia{
+    
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
@@ -34,12 +37,17 @@ main{
 
 .square{
     background-color: rgb(255, 131, 30);
-    border: 2px white solid;
+    border: 2px black solid;
     width: calc(1000px /10);
     height:calc(1000px /10) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
 }
 
 
 .clicked{
     background-color: dodgerblue;
+    color: white;
 }
