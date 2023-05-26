@@ -24,7 +24,7 @@ button{
     color: white;
     border: none;
     cursor: pointer;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 .row{
     height: 100%;
@@ -54,11 +54,15 @@ main{
     height: 1000px;
 }
 
+.easy{
+    width: calc(1000px /10);
+    height:calc(1000px /10) ;
+
+}
+
 .square{
     background-color: rgb(255, 131, 30);
     border: 2px black solid;
-    width: calc(1000px /10);
-    height:calc(1000px /10) ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,3 +75,5 @@ main{
     background-color: dodgerblue;
     color: white;
 }
+
+

@@ -1,12 +1,13 @@
 // recupero il pulsante per giocare
 
+
+
 let play = document.getElementById('play')
 console.log(play)
 // collego la creazione della griglia al pulsante
 play.addEventListener("click", function(){
     // recupero la griglia
-let griglia = document.getElementById('griglia')
-console.log(griglia)
+   let  griglia = document.getElementById('griglia')
 
 //  creo la funzione per la creazione dei quadrati della griglia
 
@@ -28,31 +29,9 @@ function squareElement (){
             console.log(`Hai cliccato sulla casella numero: ${square.innerText}`)
         })
 
-
-
         griglia.append(square)
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 });
+
