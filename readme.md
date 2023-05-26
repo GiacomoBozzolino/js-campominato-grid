@@ -10,7 +10,7 @@ Ogni cella ha un numero progressivo, da 1 a 100. Ci saranno quindi 10 caselle pe
     4.1 -  creo una variabile ed utilizzo createElement
     4.2- alla stessa variabile aggiungo una classe per lo stile da css
     NB ricordarsi di usare il return o la funzione non restituirà niente
-5- Utilizzo un ciclo for  ( i = 0; i < 100 i++) dentro cui richiamo la funzione per la crezione del quadrato associandola ad una variabile.
+5- Utilizzo un ciclo for  ( i = 0; i < 100; i++) dentro cui richiamo la funzione per la crezione del quadrato associandola ad una variabile.
     5.1- aggiungo un inner text così da stampare i numeri delle caselle nel dom
     5.2- aggiungo .appen a fine ciclo così da stampare i quadrati sulla griglia
 6- Per l''interazione al click del mouse sul quadrato:

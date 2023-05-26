@@ -15,10 +15,15 @@ function squareElement (){
     square.classList.add('square')
     return square
 }
+// realizzo un ciclo for per la creazione ripetuta dei quadrati
+    for ( i = 0; i < 100; i++ ){
+        
+        let square = squareElement ();
+        
+        console.log(square)
+        griglia.append(square)
+    }
 
-let square = squareElement ();
-
-console.log(square)
 
 
 
