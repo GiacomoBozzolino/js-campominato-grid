@@ -7,6 +7,15 @@
 header{
     height: 100px;
 }
+
+button{
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 .row{
     height: 100%;
 }
@@ -44,6 +53,7 @@ main{
     justify-content: center;
     align-items: center;
     font-size: 35px;
+    cursor: pointer;
 }
 
 
